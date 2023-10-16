@@ -1,2 +1,7 @@
 server:
   port: 8989
+
+logging:
+  level:
+    org:
+      springframework: DEBUG
