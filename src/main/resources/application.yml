@@ -1,6 +1,11 @@
 server:
   port: 8989
 
+registered:
+  client:
+    myoauth2:
+      redirect-uri: http://127.0.0.1:8282/login/oauth2/code/myoauth2
+
 logging:
   level:
     org:
