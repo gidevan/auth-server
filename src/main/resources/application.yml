@@ -10,3 +10,8 @@ logging:
   level:
     org:
       springframework: DEBUG
+
+management:
+  endpoint:
+    health:
+      show-details: always
